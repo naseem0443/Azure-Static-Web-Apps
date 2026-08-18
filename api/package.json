@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@azure/functions": "^4.16.2"
+    "@azure/functions": "^4.16.2",
+    "@azure/identity": "^4.13.1",
+    "@azure/keyvault-secrets": "^4.11.2"
   }
 }
