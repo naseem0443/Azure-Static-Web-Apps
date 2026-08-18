@@ -1,7 +1,14 @@
 {
+  "platform": {
+    "apiRuntime": "node:20"
+  },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*.{css,js,png,gif,jpg,jpeg,svg,ico}", "/favicon.ico"]
+    "exclude": [
+      "/api/*",
+      "/assets/*.{css,js,png,gif,jpg,jpeg,svg,ico,webp}",
+      "/favicon.ico"
+    ]
   },
   "responseOverrides": {
     "404": {
@@ -23,3 +30,7 @@
     ".svg": "image/svg+xml"
   }
 }
+
+
+
+
